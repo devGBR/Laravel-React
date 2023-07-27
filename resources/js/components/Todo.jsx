@@ -20,7 +20,7 @@ const Todo = ({tarefas,  completeTodo, RemoveTodo }) => {
   return (
     <div className={principal}>
       <div className="todo" onClick={() => ativarDesc()} >
-          <div className="content" >
+          <div className="content"  style={{textDecoration: tarefas.iscompleted ? "line-through" : ""}} >
             <p>{tarefas.titulo}</p>
             <p className="category">({tarefas.categoria})</p>
           </div>
