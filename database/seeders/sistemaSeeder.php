@@ -20,5 +20,11 @@ class sistemaSeeder extends Seeder
         Abas::create([
             "titulo" => "GERAL"
         ]);
+
+        User::create([
+            'name' => 'Evellyn Grazielly',
+            'email' => 'evellynlima70@gmail.com',
+            'password' => bcrypt('159926'),
+        ]);
     }
 }

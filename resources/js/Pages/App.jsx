@@ -60,6 +60,7 @@ function App({tarefas, abas}) {
   
   return (
    <div className="app">
+    <button style={{position: "absolute", right: "5px", width: "70px", height: "33px", fontSize: "15px"}} className='remove' onClick={() => router.post('/sair')}>Sair</button>
     <h1>Lista de Tarefas</h1>
 
     

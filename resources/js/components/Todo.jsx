@@ -24,7 +24,7 @@ const Todo = ({tarefas,  completeTodo, RemoveTodo }) => {
             <p>{tarefas.titulo}</p>
             <p className="category">({tarefas.categoria})</p>
           </div>
-          <div>
+          <div className='buttons'>
               <button className="complete" onClick={() => completeTodo(tarefas.id, tarefas.button)}>{tarefas.button}</button>
               <button className="remove" onClick={() => RemoveTodo(tarefas.id)}>x</button>
             </div>

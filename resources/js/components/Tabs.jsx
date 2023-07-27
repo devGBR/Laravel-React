@@ -48,7 +48,7 @@ const Tabs = ({ aba, botao, abas, filter, tarefas, search, completeTodo, RemoveT
 
             <div className='info'>
                 <p>
-                    Clique em algum item da lista para ver a descrição
+                    Clique em uma tarefa da lista para ver a descrição!!!
                 </p>
             </div>
         </div>
